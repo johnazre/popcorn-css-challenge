@@ -3,3 +3,73 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility styles */
+
+.col {
+    flex: 1;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #FFDBAA;
+}
+
+.nav-wrapper {
+    padding: 20px;
+}
+
+.row {
+    display: flex
+}
+
+.left-side-nav h2 {
+    margin: 0 0 40px 20px;
+    color: #553100;
+}
+
+.btn {
+    background-color: #805215;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.nav-btn {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.nav-btn:nth-child(1) {
+    margin-left: 10%;
+}
+
+/* Main area styles */
+
+.content-wrapper {
+    background-color: #D4A76A;
+    min-height: 600px;
+}
+
+.box {
+    background-color: white;
+    margin: 10px 20px;
+    text-align: center;
+    padding: 0 15px 15px 15px;
+    box-shadow: 0px 1px 5px 4px rgba(85,85,85,1);
+}
+
+section.row {
+    padding: 30px 30px 0 30px;
+}
+
+.content-wrapper .btn {
+    display: block;
+    width: 100%;
+}
